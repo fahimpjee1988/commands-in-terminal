@@ -1,0 +1,99 @@
+/* Color Theme 
+{ color: #F20732; }
+{ color: #07038C; }
+{ color: #0439D9; }
+ { color: #056CF2; }
+#5654EB
+#3B6D8C
+#254559
+ { color: #F20505; } */
+
+ body{
+     background-color: #3B6D8C
+     ;
+     color:white;
+ }
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav ul{
+    list-style-type: none;
+    position:fixed;
+   
+
+}
+nav ul li a {
+    padding: 0.25em 1em;
+    text-decoration: none; /* no underline */
+    background-color: #5654EB; /* pale bluish white */
+    color: #4312AE; /* dark blue */
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+  }
+
+
+
+nav ul li {
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    
+  }
+
+
+  nav ul li a:hover, nav ul li a:focus {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+  }
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+img{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      
+}
+
+.left{
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;
+    width: 50%;
+  
+}
+.right{
+    display: block;
+    margin-right: 0%;
+    width: 50%;
+}
+
+.rit1{
+    padding-right:10%;
+}
+.lefttext{
+  color:yellow;
+  padding-left:5%;
+
+
+
+}
+
+.righttext{
+    color:yellow;
+    padding-left:55%;
+}
